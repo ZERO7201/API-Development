@@ -1,0 +1,19 @@
+{
+  "name": "api-development",
+  "version": "1.0.0",
+  "description": "This is my first api development project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index"
+  },
+  "author": "RISHAV",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
