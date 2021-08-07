@@ -4,7 +4,8 @@
   "description": "This is my first api development project",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon index"
+    "dev": "npx nodemon index",
+    "start": "node index"
   },
   "author": "RISHAV",
   "license": "ISC",
