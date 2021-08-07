@@ -142,7 +142,10 @@ app.delete("/user/delete/type/:userType", async (req, res) => {
     
 });
 
-app.listen(4000, () => {
+
+// Replace process.env.PORT to 4000 when not using heroku to deploy
+// Heroku doesn't allow you to use your own ports
+app.listen(process.env.PORT, () => {
     connectDB()
         .then((data) => console.log("server is running"))
         .catch((error) => console.log(error))
